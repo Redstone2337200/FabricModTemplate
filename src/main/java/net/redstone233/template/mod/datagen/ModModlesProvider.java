@@ -21,6 +21,7 @@ public class ModModlesProvider extends FabricModelProvider {
         //throw new UnsupportedOperationException("Unimplemented method 'generateBlockStateModels'");
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_REFORGED_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REFORGED_BLOCK);
+    }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         //throw new UnsupportedOperationException("Unimplemented method 'generateItemModels'");
