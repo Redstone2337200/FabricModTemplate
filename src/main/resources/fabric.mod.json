@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "templatemod",
+	"version": "${version}",
+	"name": "TemplateMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/templatemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.redstone233.template.mod.TemplateMod"
+		],
+		"fabric-datagen": [
+			"net.redstone233.template.mod.TemplateModDataGenerator"
+		]
+	},
+	"mixins": [
+		"templatemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
