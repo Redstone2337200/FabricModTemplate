@@ -17,6 +17,10 @@ public class ModItems {
     public static final Item PROSPECTOR = registerItems("prospector", 
         new Prospectetor(new FabricItemSettings().maxDamage(1000)));
 
+    private static void addItemsToIG(FabricItemGroupEntries fabricItemGroupEntries) {
+        fabricItemGroupEntries.add(PROSPECTOR);
+    }
+
     private static Item registerItems(String name,Item item) {
         return Registry.register(Registries.ITEM,
             new Identifier(TemplateMod.MOD_ID, name), item);
