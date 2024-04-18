@@ -5,11 +5,20 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import net.redstone233.template.mod.blocks.ModBlocks;
+import net.redstone233.template.mod.items.ModItemGroup;
+import net.redstone233.template.mod.items.ModItems;
+import net.redstone233.template.mod.potions.ModPotions;
+import net.redstone233.template.mod.effects.ModEffects;
+import net.redstone233.template.mod.enchantments.ModEnchantments;
+
 public class TemplateMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("templatemod");
+	public static final String MOD_ID = "tlm";
+	
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
@@ -18,5 +27,11 @@ public class TemplateMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroup.registerModItemGroup();
+		ModBlocks.registerModBlocks();
+		ModEnchantments.registerModEnchantments();
+		ModEffects.registerModEffects();
+		ModPotions.registerModPotions();
 	}
 }
