@@ -1,6 +1,7 @@
 package net.redstone233.template.mod.items;
 
 import net.redstone233.template.mod.TemplateMod;
+import net.redstone233.template.mod.items.ModItems;
 import net.redstone233.template.mod.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
