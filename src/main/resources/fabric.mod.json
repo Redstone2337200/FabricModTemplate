@@ -8,10 +8,10 @@
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://redstone233.github.io/",
+		"sources": "https://github.com/Redstone2337200/FabricModTemplate/"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/templatemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
