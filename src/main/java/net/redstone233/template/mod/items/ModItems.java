@@ -1,6 +1,7 @@
 package net.redstone233.template.mod.items;
 
 import net.redstone233.template.mod.TemplateMod;
+import net.redstone233.template.mod.items.custom.Prospectetor;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
