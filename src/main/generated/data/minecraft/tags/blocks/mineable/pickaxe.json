@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tlm:fire_reforged_block",
+    "tlm:reforged_block"
+  ]
+}
